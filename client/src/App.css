@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* client/src/App.css */
+#customForm {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.formLabel {
+  float: left;
+
+}
+
+.selector {
+  width: 30%;
+  margin: 0px;
+}
+
+.list-group-horizontal {
+  width: 100%
+}
+
+.list-group-item {
+  width: 100%;
+}
+
+.selectorLabel {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-group{
+  margin-top: 15px;
+}
+
+.rec-button {
+  background-color: whitesmoke;
+  color: black;
+  border-width: 1px;
+  margin: 0px;
+  width: 100%
+}
+
+.rec-button:hover {
+  background-color: lightgrey;
+}
+
+.rec-container {
+  margin: 0px;
+}
+
+.modal-dialog{
+  overflow-y: initial !important;
+  max-width: 70vw !important;
+}
+
+.dialogClass {
+  width: 80vw;
+}
+
+.modal-body{
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.btn.btn-link {
+  color: #1DB954
+}
+
+.accordion>.card>.card-header {
+  background-color: #191414;
+}
+
+.accordion>.card {
+  background-color: #CECCCC;
+}
+
+.btn.btn-primary {
+  background-color: #1DB954;
+  border-color: #1DB954
+}
+
+.list-group-item {
+  background-color: #CECCCC !important;
+}
+
+.albumImage {
+  margin: 5px;
+  float: left;
+}
+
+.nameText {
+  font-size: large;
+}
+
+.artistText {
+  font-size: small;
+}
+
+.selectorObject {
+  background-color: black;
+}
+
+.btn-outline-secondary {
+  color: #9A031E;
+  border-color: #9A031E;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #9A031E;
+  color: white;
+}
+
+div, button {
+  margin: 0px;
+}
+
+#loginButton {
+  float: right;
+  margin-right: 5%;
+  color: #1DB954;
+}
+
+#accordian {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#moreButton {
+  margin-bottom: 10px;
+  border-color: #19647E;
+  color: #19647E;
+}
+
+#moreButton:hover {
+  background-color: #19647E;
+  color: white;
+}
+
+
